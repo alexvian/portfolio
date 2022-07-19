@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nanum+Gothic:wght@400;800&display=swap');
+
+font-family: 'Bebas Neue', cursive;
+font-family: 'Nanum Gothic', sans-serif;
+
+
+:root {
+    --cor0: #e8bfff;
+    --cor1: #11001b;
+    --cor2: #471763;
+    --fonte-padrao: arial, helvetica, sans-serif;
+	--fonte-diferente: 'Bebas Neue', cursive;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	text-align: center;
+	font-style: var(--fonte-diferente);
+	color: #471763;
+}
+
+.brasil {
+	width: 25px;
+	height: 25px;
+}
+
+.inglaterra {
+	width: 25px;
+	height: 25px;
+}
+
+.espanha {
+	width: 25px;
+	height: 25px;
+}
