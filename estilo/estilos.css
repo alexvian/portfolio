@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,100&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor0: #9DCBD1;
+    --cor1: #77999E;
+    --cor2: #254C52;
+    --cor3: #62CBD9;
+    --cor4: #3D4F52;
+    --fonte-padrao: arial, helvetica, sans-serif;
+    --fonte-destaque: 'Roboto Condensed', sans-serif;
+    --fonte-titulo: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--cor1);
+    font-family: var(--fonte-padrao);
+}
+
+header {
+    background-color: var(--cor0);
+    font-family: var(--fonte-titulo);
+    text-align: center;
+    color: var(--cor2);
+    padding: 15px 15px 0px 15px;
+    margin: 0px 100px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.250);
+}
+
+.brasil {
+    width: 30px;
+    height: 30px;
+    border: solid 1px #77999E;
+    border-radius: 50%;
+}
+
+.espanha {
+    width: 30px;
+    height: 30px;
+    border: solid 1px #77999E;
+    border-radius: 50%;
+}
+
+.inglaterra {
+    width: 30px;
+    height: 30px;
+    border: solid 1px #77999E;
+    border-radius: 50%;
+}
+
+#container {
+    position: relative;
+    border: 2px solid black;
+}
+
+#conteudo {
+    position: absolute;
+    border: 2px solid black;
+    
+}
+
+.foto {
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+    padding: 0px;
+    box-shadow:  0px 0px 5px 1px rgba(0, 0, 0, 0.300);
+    border: solid 2px #77999E;
+    border-radius: 50%;
+}
+
+main {
+    background-color: beige;
+    font-family: var(--fonte-titulo);
+    text-align: center;
+    color: var(--cor2);
+    padding: 0px 15px;
+    margin: 0px 100px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.250);
+}
+
+h2 {
+    text-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.300);
+    color: var(--cor0);
+    padding: 15px;
+}
+
+main > p {
+    text-align: justify;
+    padding: 15px;
+    color: black;
+    border-radius: 0px 0px 15px 15px;
+}
+
+ul {
+    columns: 2;
+    list-style-type: '\1F5F9\00A0';
+    list-style-position: inside;
+    padding-bottom: 25px;
+    border-radius: 0px 0px 15px 15px;
+    text-align: left;
+}
+
+footer {
+    background-color: var(--cor4);
+    color: var(--cor1);
+    font-size: 0.8em;
+    padding: 3px;
+    text-align: center;
+    margin-top: 25px;
+}
